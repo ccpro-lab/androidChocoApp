@@ -126,6 +126,8 @@ public class AdsVisit {
     }
 
     void findAndClick() {
+        Log.e("EEEEEE findAndClick", "current url: " + webView.getUrl());
+
         webView.loadUrl(
                 "javascript:(function() { " +
                         "setTimeout(function(){" +
