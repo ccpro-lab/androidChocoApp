@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "628740056123",
+    "firebase_url": "https://chocoseo-46c1d.firebaseio.com",
+    "project_id": "chocoseo-46c1d",
+    "storage_bucket": "chocoseo-46c1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628740056123:android:01b9e14dec38f2db92e81e",
+        "android_client_info": {
+          "package_name": "com.ccpro.demoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628740056123-oim11qg899mk5eqog7qtrpav8e32v4k4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaeXceYykl4oMTX9aC0E_5YfWrU0nCCbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628740056123-oim11qg899mk5eqog7qtrpav8e32v4k4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

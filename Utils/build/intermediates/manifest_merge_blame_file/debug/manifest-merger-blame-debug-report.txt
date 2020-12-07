@@ -1,0 +1,39 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ccpro.utils"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->F:\android\DemoApp\Utils\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->F:\android\DemoApp\Utils\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:4:5-67
+11-->F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:4:22-64
+12
+13    <application android:usesCleartextTraffic="true" >
+13-->F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:6:5-16:19
+13-->F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:6:18-53
+14        <receiver
+14-->F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:7:9-10:38
+15            android:name="ir.ccpro.utils.SensorRestarterBroadcastReceiver"
+15-->F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:8:13-75
+16            android:enabled="true"
+16-->F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:9:13-35
+17            android:exported="true" />
+17-->F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:10:13-36
+18
+19        <service
+19-->F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:12:9-15:39
+20            android:name="ir.ccpro.utils.SensorService"
+20-->F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:13:13-56
+21            android:enabled="true"
+21-->F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:14:13-35
+22            android:exported="true" />
+22-->F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:15:13-36
+23    </application>
+24
+25</manifest>

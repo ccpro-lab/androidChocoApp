@@ -1,0 +1,61 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:2:1-18:12
+	package
+		ADDED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml
+		INJECTED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml
+		ADDED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:2:1-18:12
+		INJECTED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml
+		ADDED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:2:1-18:12
+		INJECTED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:6:5-16:19
+	android:usesCleartextTraffic
+		ADDED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:6:18-53
+receiver#ir.ccpro.utils.SensorRestarterBroadcastReceiver
+ADDED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:7:9-10:38
+	android:enabled
+		ADDED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:9:13-35
+	android:exported
+		ADDED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:10:13-36
+	android:name
+		ADDED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:8:13-75
+service#ir.ccpro.utils.SensorService
+ADDED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:12:9-15:39
+	android:enabled
+		ADDED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:14:13-35
+	android:exported
+		ADDED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml:13:13-56
+uses-sdk
+INJECTED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml
+INJECTED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml
+INJECTED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml
+INJECTED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml
+		ADDED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml
+		INJECTED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml
+		ADDED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml
+		INJECTED from F:\android\DemoApp\Utils\src\main\AndroidManifest.xml
