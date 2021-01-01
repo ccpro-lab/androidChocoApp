@@ -35,11 +35,15 @@ public class AdsVisit {
 
     WebView webView;
 
-    public AdsVisit(Context context, AdsDataMoldel data) {
+    public AdsVisit(Context context, AdsDataMoldel data, WebView wp) {
         this.data = data;
         this.context = context;
         step = 0;
         Log.e("EEEEEE", "Start Ads Visit by key: " + data.keyword);
+
+        if(wp!= null){
+            webView= wp;
+        }
     }
 
     public void start() {
@@ -47,8 +51,9 @@ public class AdsVisit {
             return;
         }
 
-        webView = new WebView(context);
-
+        if(webView==null) {
+            webView = new WebView(context);
+        }
         //Make sure No cookies are created
         CookieManager.getInstance().setAcceptCookie(false);
 
@@ -121,7 +126,7 @@ public class AdsVisit {
             }
         });
         //webView.loadUrl("https://www.google.com/search?q="+ data.keyword);
-        webView.loadUrl("https://www.google.com/search?q="+ data.keyword+"&rlz=1C1CHWL_enIR857IR857&oq=checker&aqs=chrome..69i57j69i60&sourceid=chrome&ie=UTF-8");
+        webView.loadUrl("https://www.google.com/search?hl=en&q="+data.keyword);
         //webView.loadUrl("https://www.google.com/search?newwindow=1&rlz=1C1CHWL_enIR857IR857&sxsrf=ALeKk01ZHmsgNyBenjYOLUEEPU2buPxlSQ%3A1605901731809&ei=ox24X7D8MNGG1fAPpoyXkAg&q=%D8%AA%D8%A8%D9%84%DB%8C%D8%BA+%DA%AF%D9%88%DA%AF%D9%84&oq=%D8%AA%D8%A8%D9%84%DB%8C%D8%BA+%DA%AF%D9%88%DA%AF%D9%84&gs_lcp=CgZwc3ktYWIQAzIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywEyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB46BwgAEEcQsAM6CAgAEMkDEMsBOgsILhDHARCvARDLAToGCAAQDRAeSgUIOhIBMVDDIli6KmCKLWgAcAB4AIAB0wOIAf8OkgEHMi00LjAuMpgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=psy-ab&ved=0ahUKEwjw2ZKS8pHtAhVRQxUIHSbGBYIQ4dUDCA0&uact=5");
     }
 
@@ -147,7 +152,7 @@ public class AdsVisit {
     }
 
 
-    private class MyBrowser extends WebViewClient {
+    public static class MyBrowser extends WebViewClient {
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
             view.loadUrl(url);

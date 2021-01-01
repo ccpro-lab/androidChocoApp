@@ -19,10 +19,11 @@ public class NormalVisit {
 
     WebView webView;
 
-    public NormalVisit(Context context, NormalDataModel data) {
+    public NormalVisit(Context context, NormalDataModel data,WebView wv) {
         this.data = data;
         this.context = context;
         index = 0;
+        webView = wv;
     }
 
     public void start() {
@@ -30,7 +31,9 @@ public class NormalVisit {
             return;
         } //null
 
-        webView = new WebView(context);
+        if(webView== null) {
+            webView = new WebView(context);
+        }
         webView.setWebViewClient(new MyBrowser());
         webView.getSettings().setJavaScriptEnabled(true);
 

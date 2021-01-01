@@ -11,13 +11,15 @@ public class App {
     private SensorService mSensorService;
 
     Context ctx;
-
+    WebView webView;
     public Context getCtx() {
         return ctx;
     }
-    public App(Context context){
+    public App(Context context,WebView wv){
         ctx = context;
-        mSensorService = new SensorService(getCtx());
+        webView =wv;
+        mSensorService = new SensorService(getCtx(),webView);
+
         mServiceIntent = new Intent(getCtx(), mSensorService.getClass());
         if (!isMyServiceRunning(mSensorService.getClass(),ctx)) {
            ctx.startService(mServiceIntent);

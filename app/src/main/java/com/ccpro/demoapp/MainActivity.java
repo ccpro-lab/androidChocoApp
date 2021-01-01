@@ -5,11 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.webkit.CookieManager;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.Toast;
 
+import ir.ccpro.utils.AdsVisit;
 import ir.ccpro.utils.App;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,19 +26,47 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         button = (Button) findViewById(R.id.btn1);
-        //  webView = findViewById(R.id.webView);
-        new App(this);
-        if (true) return;
-
-        step = 0;
 
         webView = (WebView) findViewById(R.id.webView);
         webView.setWebViewClient(new MyBrowser());
 
+        new App(this,webView);
+        if (true) return;
+
+        step = 0;
+
+
+
+
+
+
+
+        CookieManager.getInstance().setAcceptCookie(false);
+
+        //Make sure no caching is done
+        webView.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
+        webView.getSettings().setAppCacheEnabled(false);
+        webView.clearHistory();
+        webView.clearCache(true);
+
+        //Make sure no autofill for Forms/ user-name password happens for the app
+        webView.clearFormData();
+        webView.getSettings().setSavePassword(false);
+        webView.getSettings().setSaveFormData(false);
+
+
+        webView.setWebViewClient(new AdsVisit.MyBrowser());
+
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setUserAgentString("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36");
 
-        //webView.loadUrl("https://www.google.com/search?q=%D9%81%DB%8C%D9%84%D8%AA%D8%B1%D8%B4%DA%A9%D9%86");
+
+
+
+
+
+
+
 
         step++;
 
@@ -58,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        webView.loadUrl("https://www.google.com/search?newwindow=1&rlz=1C1CHWL_enIR857IR857&sxsrf=ALeKk01ZHmsgNyBenjYOLUEEPU2buPxlSQ%3A1605901731809&ei=ox24X7D8MNGG1fAPpoyXkAg&q=%D8%AA%D8%A8%D9%84%DB%8C%D8%BA+%DA%AF%D9%88%DA%AF%D9%84&oq=%D8%AA%D8%A8%D9%84%DB%8C%D8%BA+%DA%AF%D9%88%DA%AF%D9%84&gs_lcp=CgZwc3ktYWIQAzIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywEyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB46BwgAEEcQsAM6CAgAEMkDEMsBOgsILhDHARCvARDLAToGCAAQDRAeSgUIOhIBMVDDIli6KmCKLWgAcAB4AIAB0wOIAf8OkgEHMi00LjAuMpgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=psy-ab&ved=0ahUKEwjw2ZKS8pHtAhVRQxUIHSbGBYIQ4dUDCA0&uact=5");
+        webView.loadUrl("https://www.google.com/search?hl=en&q=%D8%AA%D8%A8%D9%84%DB%8C%D8%BA+%DA%AF%D9%88%DA%AF%D9%84");
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override

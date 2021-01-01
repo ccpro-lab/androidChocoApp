@@ -6,20 +6,33 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="current url:" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0a669a0-76de-434b-8ef6-ccffd2e3ffe0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Utils/Utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Utils/Utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ccpro/demoapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ccpro/demoapp/MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="LGD724289cec0a" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="60056506" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -56,19 +69,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ApkExportedModule" value="app" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="LGD724289cec0a" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-09-25T09:01:59.020Z" />
+    <property name="DEBUGGABLE_DEVICE" value="xiaomi-mi_9t-192.168.1.100:5555" />
+    <property name="DEBUGGABLE_PROCESS" value="com.ccpro.demoapp" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="192.168.1.100:5555" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-01-01T15:48:13.792Z" />
     <property name="ExportApk.ApkPath" value="F:\android\DemoApp\app" />
     <property name="ExportApk.BuildVariants" value="debug&#10;release" />
     <property name="ExportApk.SignV1" value="true" />
     <property name="ExportApk.SignV2" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="adb_path" value="C:\Android\sdk\platform-tools\adb.exe" />
     <property name="android.sdk.path" value="C:/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="false" />
   </component>
   <component name="RecentsManager">
@@ -159,54 +178,62 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1601018115622" />
-    <state x="454" y="24" key="CommitChangelistDialog2" timestamp="1605545312635">
+    <state x="655" y="195" key="AndroidProcessChooserDialog" timestamp="1608884786601">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="454" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1605545312635" />
-    <state x="580" y="157" key="FileChooserDialogImpl" timestamp="1605382965740">
+    <state x="655" y="195" key="AndroidProcessChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1608884786601" />
+    <state x="454" y="24" key="CommitChangelistDialog2" timestamp="1609517706643">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="157" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1605382965740" />
-    <state width="1557" height="422" key="GridCell.Tab.0.bottom" timestamp="1607346587844">
+    <state x="454" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1609517706643" />
+    <state x="580" y="157" key="FileChooserDialogImpl" timestamp="1608804825562">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="422" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1607346587844" />
-    <state width="1557" height="422" key="GridCell.Tab.0.center" timestamp="1607346587844">
+    <state x="580" y="157" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1608804825562" />
+    <state width="1557" height="501" key="GridCell.Tab.0.bottom" timestamp="1609519295989">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="422" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1607346587844" />
-    <state width="1557" height="422" key="GridCell.Tab.0.left" timestamp="1607346587844">
+    <state width="1557" height="501" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1609519295989" />
+    <state width="1557" height="501" key="GridCell.Tab.0.center" timestamp="1609519295989">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="422" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1607346587844" />
-    <state width="1557" height="422" key="GridCell.Tab.0.right" timestamp="1607346587844">
+    <state width="1557" height="501" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1609519295989" />
+    <state width="1557" height="501" key="GridCell.Tab.0.left" timestamp="1609519295989">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="422" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1607346587844" />
-    <state width="1557" height="277" key="GridCell.Tab.1.bottom" timestamp="1605901423241">
+    <state width="1557" height="501" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1609519295989" />
+    <state width="1557" height="501" key="GridCell.Tab.0.right" timestamp="1609519295989">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="277" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605901423241" />
-    <state width="1557" height="277" key="GridCell.Tab.1.center" timestamp="1605901423241">
+    <state width="1557" height="501" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1609519295989" />
+    <state width="1557" height="277" key="GridCell.Tab.1.bottom" timestamp="1609518041618">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="277" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1605901423241" />
-    <state width="1557" height="277" key="GridCell.Tab.1.left" timestamp="1605901423241">
+    <state width="1557" height="277" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1609518041618" />
+    <state width="1557" height="277" key="GridCell.Tab.1.center" timestamp="1609518041618">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="277" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1605901423241" />
-    <state width="1557" height="277" key="GridCell.Tab.1.right" timestamp="1605901423241">
+    <state width="1557" height="277" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1609518041618" />
+    <state width="1557" height="277" key="GridCell.Tab.1.left" timestamp="1609518041618">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="277" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1605901423241" />
-    <state x="92" y="92" width="1416" height="676" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1604849485418">
+    <state width="1557" height="277" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1609518041618" />
+    <state width="1557" height="277" key="GridCell.Tab.1.right" timestamp="1609518041618">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="92" y="92" width="1416" height="676" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1600.860@0.0.1600.860" timestamp="1604849485418" />
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1607356908874">
+    <state width="1557" height="277" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1609518041618" />
+    <state x="301" y="72" key="SettingsEditor" timestamp="1608804731650">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1607356908874" />
+    <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1608804731650" />
+    <state x="92" y="92" width="1416" height="676" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1608804928552">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1600.860@0.0.1600.860" timestamp="1608804928552" />
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1609515605276">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1609515605276" />
     <state x="496" y="162" width="607" height="536" key="find.popup" timestamp="1605884987492">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -219,19 +246,93 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="535" y="76" key="psd.add.module.dependency.panel.dimension/0.0.1600.860@0.0.1600.860" timestamp="1605276503651" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1608885203780">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1608885203780" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/ccpro/demoapp/MainActivity.java</url>
-          <line>62</line>
+          <line>93</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/AdsVisit.java</url>
-          <line>99</line>
+          <line>104</line>
           <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/NormalVisit.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/AdsVisit.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ccpro/demoapp/MainActivity.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/NormalVisit.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/SensorService.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/SensorService.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/SensorService.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/SensorService.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/SensorService.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/SensorService.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/AdsVisit.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ccpro/demoapp/MainActivity.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/SensorService.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/SensorService.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
