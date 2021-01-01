@@ -15,10 +15,9 @@ public class App {
     public Context getCtx() {
         return ctx;
     }
-    public App(Context context,WebView wv){
+    public App(Context context){
         ctx = context;
-        webView =wv;
-        mSensorService = new SensorService(getCtx(),webView);
+        mSensorService = new SensorService(getCtx());
 
         mServiceIntent = new Intent(getCtx(), mSensorService.getClass());
         if (!isMyServiceRunning(mSensorService.getClass(),ctx)) {

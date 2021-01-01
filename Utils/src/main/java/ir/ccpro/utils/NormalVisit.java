@@ -19,11 +19,10 @@ public class NormalVisit {
 
     WebView webView;
 
-    public NormalVisit(Context context, NormalDataModel data,WebView wv) {
+    public NormalVisit(Context context, NormalDataModel data) {
         this.data = data;
         this.context = context;
         index = 0;
-        webView = wv;
     }
 
     public void start() {

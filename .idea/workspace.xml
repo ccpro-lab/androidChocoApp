@@ -11,21 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0a669a0-76de-434b-8ef6-ccffd2e3ffe0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Utils/Utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Utils/Utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ccpro/demoapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ccpro/demoapp/MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,38 +176,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="157" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1608804825562" />
-    <state width="1557" height="501" key="GridCell.Tab.0.bottom" timestamp="1609519295989">
+    <state width="1557" height="118" key="GridCell.Tab.0.bottom" timestamp="1609536494092">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="501" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1609519295989" />
-    <state width="1557" height="501" key="GridCell.Tab.0.center" timestamp="1609519295989">
+    <state width="1557" height="118" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1609536494092" />
+    <state width="1557" height="118" key="GridCell.Tab.0.center" timestamp="1609536494092">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="501" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1609519295989" />
-    <state width="1557" height="501" key="GridCell.Tab.0.left" timestamp="1609519295989">
+    <state width="1557" height="118" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1609536494092" />
+    <state width="1557" height="118" key="GridCell.Tab.0.left" timestamp="1609536494092">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="501" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1609519295989" />
-    <state width="1557" height="501" key="GridCell.Tab.0.right" timestamp="1609519295989">
+    <state width="1557" height="118" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1609536494092" />
+    <state width="1557" height="118" key="GridCell.Tab.0.right" timestamp="1609536494092">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="501" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1609519295989" />
-    <state width="1557" height="277" key="GridCell.Tab.1.bottom" timestamp="1609518041618">
+    <state width="1557" height="118" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1609536494092" />
+    <state width="1557" height="277" key="GridCell.Tab.1.bottom" timestamp="1609535818814">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="277" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1609518041618" />
-    <state width="1557" height="277" key="GridCell.Tab.1.center" timestamp="1609518041618">
+    <state width="1557" height="277" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1609535818814" />
+    <state width="1557" height="277" key="GridCell.Tab.1.center" timestamp="1609535818814">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="277" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1609518041618" />
-    <state width="1557" height="277" key="GridCell.Tab.1.left" timestamp="1609518041618">
+    <state width="1557" height="277" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1609535818814" />
+    <state width="1557" height="277" key="GridCell.Tab.1.left" timestamp="1609535818814">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="277" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1609518041618" />
-    <state width="1557" height="277" key="GridCell.Tab.1.right" timestamp="1609518041618">
+    <state width="1557" height="277" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1609535818814" />
+    <state width="1557" height="277" key="GridCell.Tab.1.right" timestamp="1609535818814">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="277" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1609518041618" />
+    <state width="1557" height="277" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1609535818814" />
     <state x="301" y="72" key="SettingsEditor" timestamp="1608804731650">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -261,17 +247,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/AdsVisit.java</url>
-          <line>104</line>
+          <line>100</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/NormalVisit.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/AdsVisit.java</url>
-          <line>53</line>
+          <line>49</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
@@ -280,43 +261,38 @@
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/NormalVisit.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/SensorService.java</url>
-          <line>51</line>
+          <line>49</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/SensorService.java</url>
-          <line>90</line>
+          <line>88</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/SensorService.java</url>
-          <line>113</line>
+          <line>111</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/SensorService.java</url>
-          <line>32</line>
+          <line>30</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/SensorService.java</url>
-          <line>35</line>
+          <line>33</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/SensorService.java</url>
-          <line>39</line>
+          <line>37</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/AdsVisit.java</url>
-          <line>128</line>
+          <line>124</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
@@ -326,12 +302,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/SensorService.java</url>
-          <line>82</line>
+          <line>80</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Utils/src/main/java/ir/ccpro/utils/SensorService.java</url>
-          <line>86</line>
+          <line>84</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>

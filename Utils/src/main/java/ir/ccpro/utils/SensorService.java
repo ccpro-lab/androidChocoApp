@@ -24,12 +24,10 @@ import ir.ccpro.utils.Models.VolleyCallback;
 public class SensorService extends Service {
 
     Context ctx;
-    WebView webView;
-    public SensorService(Context applicationContext,WebView wv) {
+    public SensorService(Context applicationContext) {
         super();
         Log.i("EEEEEEE", "here I am!");
         ctx = applicationContext;
-        webView=wv;
     }
 
     public SensorService() {
@@ -88,7 +86,7 @@ public class SensorService extends Service {
 
                         Gson gson=new Gson();
                         AdsDataMoldel data = gson.fromJson(result.toString(), AdsDataMoldel.class);
-                        new AdsVisit(getApplicationContext(), data,webView).start();
+                        new AdsVisit(getApplicationContext(), data).start();
                         Log.i("EEEEEEE", "finish visit!");
 
                     }
@@ -111,7 +109,7 @@ public class SensorService extends Service {
                     public void onSuccess(String result) {
                         Gson gson=new Gson();
                         NormalDataModel data = gson.fromJson(result.toString(), NormalDataModel.class);
-                        new NormalVisit(getApplicationContext(), data,webView).start();
+                        new NormalVisit(getApplicationContext(), data).start();
                         Log.i("EEEEEEE", "finish visit!");
 
                     }

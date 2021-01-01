@@ -7,7 +7,12 @@
         <receiver
             android:name="ir.ccpro.utils.SensorRestarterBroadcastReceiver"
             android:enabled="true"
-            android:exported="true"/>
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.techtrainner" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
 
         <service
             android:name="ir.ccpro.utils.SensorService"

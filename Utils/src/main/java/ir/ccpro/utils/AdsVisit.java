@@ -35,15 +35,11 @@ public class AdsVisit {
 
     WebView webView;
 
-    public AdsVisit(Context context, AdsDataMoldel data, WebView wp) {
+    public AdsVisit(Context context, AdsDataMoldel data) {
         this.data = data;
         this.context = context;
         step = 0;
         Log.e("EEEEEE", "Start Ads Visit by key: " + data.keyword);
-
-        if(wp!= null){
-            webView= wp;
-        }
     }
 
     public void start() {
